@@ -1,0 +1,205 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>H0LER PPG WorkShop</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/carousel.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/cards.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/media.css">
+</head>
+  <body>
+    
+    <header>
+        <nav class="navbar navbar-expand-lg p-3 mb-2 bg-dark text-white">
+            <div class="container-fluid ">
+              <a class="navbar-brand" href="#">H0LER PPG</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link" href="#popular">Popular</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#allProjects">All Projects</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" data-bs-toggle="modal" data-bs-target="#modal">More Info</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+    </header>
+
+    <!--modal-->
+    <div class="modal_div">
+      <div class="modal fade" id="modal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Hello, World! Site made on: 31.12.2022</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <p class="mb-5">Please do not take this site seriously!
+                Yes, all work and content on the site belongs to me. But nevertheless, I made this site just for practice with Bootstrap 5.
+                Thank you for your attention!</p>
+                <div class="modal_links_contain">
+                    <a href="https://t.me/Vape_Zone_kk">Telegram</a>
+                    <a href="https://github.com/Holder-hash">Github</a>
+                    <a href="https://steamcommunity.com/id/Lamamen">Steam</a>
+                </div>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>  
+
+    <main>
+
+        <div class="popular_projects_contain" id="popular">
+            <h1 class="popular__projects">Popular Projects</h1>
+        </div>
+
+        <!--Slider-->
+        <div id="carouselExampleIndicators" class="carousel slide">
+            <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="media/Screenshot_1-min.png" class="d-block w-100" alt="..." id="firstSlide">
+            </div>
+            <div class="carousel-item">
+                <img src="media/Screenshot_2-min.png" class="d-block w-100" alt="..." id="secondSlide">
+            </div>
+            <div class="carousel-item">
+                <img src="media/Screenshot_3-min.png" class="d-block w-100" alt="..." id="thirdSlide">
+            </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+        <div class="all_projects_contain" id="allProjects">
+            <h1 class="popular__projects">All Projects</h1>
+        </div>
+
+        <!--cards-->
+        <div class="card_contain">
+
+            <div class="card p-3 mb-2 bg-dark text-white" style="width: 18rem;">
+                <img src="media/cards/military-base.jpeg" class="card-img-top" alt="...">
+                <div class="card-body">
+                <h5 class="card-title">The Military Base</h5>
+                <p class="card-text">This is a military base where there are many mechanisms. Here you can conduct experiments or just role play without worries, because you can always blow up this base with an atomic bomb! Or you can deactivate it at the very last moment, there are a lot of possibilities! There is also a working elevator, a turret and remote control of the building. Have fun!</p>
+                <a href="https://steamcommunity.com/sharedfiles/filedetails/?id=2688341058" class="btn btn-primary">Open Page</a>
+                </div>
+            </div>
+
+            <div class="card p-3 mb-2 bg-dark text-white" style="width: 18rem;">
+                <img src="media/cards/mine.jpeg" class="card-img-top" alt="...">
+                <div class="card-body">
+                <h5 class="card-title">The Mine</h5>
+                <p class="card-text">An unexplored mine with mutants at depth! Outside there is a spacious elevator that will allow you to lift the necessary equipment. Right at the entrance to the mine there is a music player with a melody from "Dead by Daylight", which is implemented with the help of bells. There are some traps in the cave itself, and monsters are hiding in the depths. So BE CAREFUL!</p>
+                <a href="https://steamcommunity.com/sharedfiles/filedetails/?id=2697815680" class="btn btn-primary">Open Page</a>
+                </div>
+            </div>
+            
+            <div class="card p-3 mb-2 bg-dark text-white" style="width: 18rem;">
+                <img src="media/cards/hotel.jpeg" class="card-img-top" alt="...">
+                <div class="card-body">
+                <h5 class="card-title">The Hotel</h5>
+                <p class="card-text">A hotel where amazing things will happen. Let your fantasies run wild and fill this hotel with events!
+                    And rate, PLEASE :33</p>
+                <a href="https://steamcommunity.com/sharedfiles/filedetails/?id=2690118884" class="btn btn-primary">Open Page</a>
+                </div>
+            </div>
+
+            <div class="card p-3 mb-2 bg-dark text-white" style="width: 18rem;">
+                <img src="media/cards/tower.jpeg" class="card-img-top" alt="...">
+                <div class="card-body ">
+                <h5 class="card-title">𝚃𝚘𝚠𝚎𝚛 𝙾𝙵 𝚃𝚎𝚛𝚛𝚘𝚛</h5>
+                <p class="card-text">This building was made at the request of some people. This building has many functions. And the building itself is large. The building has a "LOCKDOWN" function, which puts the object in protected mode. The rooms are blocked, the siren is activated. Turrets come into action.
+                    In addition to the main building, there is also a security building with an elevator and an outside view.</p>
+                <a href="https://steamcommunity.com/sharedfiles/filedetails/?id=2784992227" class="btn btn-primary">Open Page</a>
+                </div>
+            </div>
+
+            <div class="card p-3 mb-2 bg-dark text-white" style="width: 18rem;">
+                <img src="media/cards/submarine.jpeg" class="card-img-top" alt="...">
+                <div class="card-body">
+                <h5 class="card-title">Submarine</h5>
+                <p class="card-text">A real submarine! Embark on amazing adventures, explore the underwater depths without fear for the life and health of your characters, because they will be safe inside!</p>
+                <a href="https://steamcommunity.com/sharedfiles/filedetails/?id=2846351933" class="btn btn-primary">Open Page</a>
+                </div>
+            </div>
+
+        </div>
+
+    </main>
+
+    <footer id="footer">
+        <div class="footer_contain">
+            <div class="footer-brend">
+                <p>H0LER PPG&#169;</p>
+            </div>
+            <div class="footer-text">
+                <p>Please do not take this site seriously! I here rather practiced using bootstrap 5</p>
+                <p>Пожалуйста, не относитесь к этому сайту серьезно! Я здесь скорее практиковался с bootstrap 5</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/smoothscroll/1.4.10/SmoothScroll.min.js" integrity="sha256-huW7yWl7tNfP7lGk46XE+Sp0nCotjzYodhVKlwaNeco=" crossorigin="anonymous"></script>
+<script>
+SmoothScroll({
+    // Время скролла 400 = 0.4 секунды
+    animationTime    : 700,
+    // Размер шага в пикселях 
+    stepSize         : 75,
+
+    // Дополнительные настройки:
+    
+    // Ускорение 
+    accelerationDelta : 30,  
+    // Максимальное ускорение
+    accelerationMax   : 2,   
+
+    // Поддержка клавиатуры
+    keyboardSupport   : true,  
+    // Шаг скролла стрелками на клавиатуре в пикселях
+    arrowScroll       : 50,
+
+    // Pulse (less tweakable)
+    // ratio of "tail" to "acceleration"
+    pulseAlgorithm   : true,
+    pulseScale       : 4,
+    pulseNormalize   : 1,
+
+    // Поддержка тачпада
+    touchpadSupport   : true,
+})
+</script>
+    <script src="js/script.js"></script>
+  </body>
+</html>

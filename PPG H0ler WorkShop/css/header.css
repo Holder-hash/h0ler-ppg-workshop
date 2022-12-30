@@ -1,0 +1,46 @@
+
+
+body {
+    background: #1b2838;
+}
+
+nav {
+    background: none;
+}
+
+.nav-link {
+    cursor: pointer;
+}
+
+.container-fluid {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.container-fluid  a {
+    color: #b8b6b4;
+}
+
+.container-fluid  a:hover {
+    color: #ffffff;
+}
+
+.navbar-toggler { 
+    background-color: #8e8e8e4a;
+    transition: .3s;
+}
+
+.navbar-toggler:focus {
+    text-decoration: none;
+    outline: 0;
+    box-shadow: 0 0 15px rgba(75, 75, 75, 0.623);
+}
+
+/*modal*/
+.modal_links_contain {
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 18px;
+}
